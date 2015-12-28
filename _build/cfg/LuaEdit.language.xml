@@ -1,0 +1,17 @@
+<language case_sensitive="true">
+	<keywords>and break do else elseif end false for function goto if in local nil not or repeat return then true until while</keywords>
+	<multilinecomments begin="--[[" end="--]]" />
+	<rule regex="\b[0-9]+(\.[0-9]+)?" id="numbers" />
+	<rule regex="#[^\n]*" id="preprocessor" />
+	<rule regex="&quot.*&quot" id="strings" />
+	<rule regex="--[^\n]*" id="comments" />
+	<rule regex="//\$[^\n]*" id="preprocessor" />
+	<commands>
+		<run>
+			cmd.exe /K %Pbin/moai.exe "%F"
+		</run>
+		<build>
+			cmd.exe /K %Pbin/lua5.1.exe "%F"
+		</build>
+	</commands>
+</language>

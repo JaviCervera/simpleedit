@@ -1,0 +1,10 @@
+<language case_sensitive="true">
+	<keywords>bool byte short int float string void break case class const default do else false for if import in interface native new null private protected public return self static super switch true while</keywords>
+	<multilinecomments begin="/\*" end="\*/" />
+	<rule regex="\b[0-9]+(\.[0-9]+)?" id="numbers" />
+	<rule regex="&quot.*&quot" id="strings" />
+	<rule regex="//[^\n]*" id="comments" />
+	<commands>
+		<compile>./silkc %F</compile>
+	</commands>
+</language>

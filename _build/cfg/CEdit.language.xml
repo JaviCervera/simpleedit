@@ -1,0 +1,12 @@
+<language case_sensitive="true">
+	<keywords>auto break case char const continue default do double else enum extern float for goto if int long register return short signed sizeof static struct switch typedef union unsigned void volatile while</keywords>
+	<multilinecomments begin="/\*" end="\*/" />
+	<rule regex="\b[0-9]+(\.[0-9]+)?" id="numbers" />
+	<rule regex="#[^\n]*" id="preprocessor" />
+	<rule regex="&quot.*&quot" id="strings" />
+	<rule regex="//[^\n]*" id="comments" />
+	<rule regex="//\$[^\n]*" id="preprocessor" />
+	<commands>
+		<compile>./tcc %F</compile>
+	</commands>
+</language>

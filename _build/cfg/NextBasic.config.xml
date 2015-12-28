@@ -1,0 +1,27 @@
+<config>
+	<wintitle>NextBasic</wintitle>
+	<about>NextBasic 1.0. Programmed by Javi Cervera.</about>
+	<filefilter>NextBasic files (*.nb);;All files (*.*)</filefilter>
+	<defaultext>.nb</defaultext>
+	<tabsize>3</tabsize>
+	<font>
+		<register>cfg/Envy Code R Bold.ttf</register>
+		<name:win>Envy Code R</name:win>
+		<size:win>10</size:win>
+		<name:mac>Envy Code R</name:mac>
+		<size:mac>12</size:mac>
+		<name:linux>Envy Code R</name:linux>
+		<size:linux>12</size:linux>
+		<flags bold="false" italic="false" underline="false" />
+	</font>
+	<colors>
+		<background rgb="0x225588" />
+		<foreground rgb="0xEEEEEE" />
+		<comments rgb="0xFFEE00" />
+		<strings rgb="0x00FF66" />
+		<keywords rgb="0xAAFFFF" />
+		<numbers rgb="0x33FFDD" />
+		<preprocessor rgb="0xFFAA00" />
+		<symbols rgb="0x008080" />
+	</colors>
+</config>

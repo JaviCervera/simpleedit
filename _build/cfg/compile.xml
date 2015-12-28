@@ -1,0 +1,15 @@
+<interface>
+	<window key="win" parent="external">
+		<title>LuaEdit</title>
+		<coords x="0" y="0" width="400" height="250" />
+		<flag>tool</flag>
+		<flag>sheet</flag>
+		<flag>centered</flag>
+	</window>
+	<editor key="editor" parent="win" readonly ="true" highlighting="false">
+		<coords x="4" y="4" width="392" height="212" />
+	</editor>
+	<button key="button" parent="win" text="Cancel">
+		<coords x="300" y="220" width="80" height="24" />
+	</button>
+</interface>

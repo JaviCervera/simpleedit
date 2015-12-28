@@ -1,0 +1,19 @@
+<language case_sensitive="false">
+	<keywords>Program EndProgram If ElseIf Else EndIf For To Step Next Repeat Until While EndWhile Dim As Int Float String Function EndFunction Return Const Struct EndStruct New Delete True False Null Exit Select Case Default EndSelect Extern EndExtern And Or Not Mod</keywords>
+	<rule regex="\b[0-9]+(\.[0-9]+)?" id="numbers"/>
+	<!--rule regex="&quot.*&quot" id="strings"/-->
+	<rule regex="&quot[^&quot]*&quot" id="strings"/>
+	<rule regex=";[^\n]*" id="comments"/>
+	<rule regex="^\$[^\n]*" id="preprocessor"/>
+	<commands>
+		<compile>
+			./bin/nbc -c "%F"
+		</compile>
+		<build>
+			./bin/nbc -noclean "%F"
+		</build>
+		<run>
+			./bin/nbc -r "%F"
+		</run>
+	</commands>
+</language>

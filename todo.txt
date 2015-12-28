@@ -1,0 +1,32 @@
+v0.4 (for NextBasic v0.4):
++ Add Find / Replace support.
++ Add "Lock build file" support.
++ Add keyboard shortcuts.
++ Update status bar also if cursor has changed position.
++ Add function list.
++ Add case insensitive language support.
+? Fix loading of files.
++ Fix crash when saving a new file.
++ Add preprocessor regex.
++ Add remaining keywords (True, False, Null, Exit, Select, Case, Default, EndSelect).
+- Keep undo steps when replacing text in editor.
+- "Esc" key closes find dialog.
+- "Enter" key on find dialog goes to next occurence.
+- Focus on "Ok" button on Compiler Dialog.
+- Check why the compiler dialog is sometimes cleared.
+- Add command line support.
+
+v0.9 (for NextBasic 0.9):
+- Fix string regex.
+- Update menu status when changing tabs (disable unavailable items, etc).
+- Add help support.
+- Add support for embedding config XML files (except the main one).
+
+V1.0 (for NextBasic 1.0):
+- Fix keywords case.
+- Add options dialog.
+- Add icons in menus, tabs, and function list.
+- Add contextual help.
+
+V1.1:
+- Add multisyntax support.

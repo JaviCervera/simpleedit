@@ -1,0 +1,26 @@
+<config>
+	<wintitle>CEdit</wintitle>
+	<about>CEdit 0.9. Programmed by Javi Cervera.</about>
+	<filefilter>C files (*.c);;H files (*.h);;All files (*.*)</filefilter>
+	<defaultext>.c</defaultext>
+	<tabsize>3</tabsize>
+	<font>
+		<name:win>Courier New</name:win>
+		<size:win>10</size:win>
+		<name:mac>Monaco</name:mac>
+		<size:mac>12</size:mac>
+		<name:linux>Monospace</name:linux>
+		<size:linux>11</size:linux>
+		<flags bold="false" italic="false" underline="false" />
+	</font>
+	<colors>
+		<background rgb="0xFFFFFF" />
+		<foreground rgb="0x000000" />
+		<comments rgb="0x008000" />
+		<strings rgb="0xFF0000" />
+		<keywords rgb="0x003CFF" />
+		<numbers rgb="0x900060" />
+		<preprocessor rgb="0x804000" />
+		<symbols rgb="0x008080" />
+	</colors>
+</config>

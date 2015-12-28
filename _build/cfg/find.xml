@@ -1,0 +1,34 @@
+<interface>
+	<frame key="frame" parent="external">
+		<title>Find & Replace</title>
+		<coords x="0" y="0" width="640" height="46" />
+		<flag>noborder</flag>
+	</window>
+	<button key="cancelButton" parent="frame" text="Close">
+		<coords x="540" y="2" width="100" height="20" />
+	</button>
+	<button key="findButton" parent="frame" text="Find">
+		<coords x="345" y="24" width="100" height="20" />
+	</button>
+	<button key="replaceButton" parent="frame" text="Replace">
+		<coords x="445" y="24" width="100" height="20" />
+	</button>
+	<button key="replaceAllButton" parent="frame" text="Replace All">
+		<coords x="545" y="24" width="100" height="20" />
+	</button>
+	<label key="findLabel" parent="frame" text="Find:">
+		<coords x="4" y="2" width="84" height="20" />
+	</label>
+	<lineedit key="findLineEdit" parent="frame">
+		<coords x="98" y="2" width="150" height="20" />
+	</lineedit>
+	<label key="replaceLabel" parent="frame" text="Replace with:">
+		<coords x="4" y="24" width="84" height="20" />
+	</label>
+	<lineedit key="replaceLineEdit" parent="frame">
+		<coords x="98" y="24" width="150" height="20" />
+	</lineedit>
+	<checkbox key="matchCaseCheckBox" parent="frame" text="Match case">
+		<coords x="345" y="2" width="100" height="20" />
+	</checkbox>
+</interface>

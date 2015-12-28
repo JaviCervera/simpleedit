@@ -1,0 +1,76 @@
+<interface>
+	<window key="win">
+		<title>SilkEdit</title>
+		<coords x="0" y="0" width="800" height="600" />
+		<flag>centered</flag>
+	</window>
+	<menu key="menu" parent="win">
+		<title caption="File">
+			<item id="101" caption="New" shortcut="Ctrl+N" />
+			<item id="102" caption="Open" shortcut="Ctrl+O" />
+			<item id="103" caption="Save" shortcut="Ctrl+S" />
+			<item id="104" caption="Save As..." shortcut="Shift+Ctrl+S" />
+			<item id="105" caption="Save All" />
+			<separator/>
+			<item id="106" caption="Close" shortcut="Ctrl+W" />
+			<item id="107" caption="Close All" />
+			<separator/>
+			<item id="108" caption="Next File" shortcut="Meta+Tab" />
+			<item id="109" caption="Previous File" shortcut="Shift+Meta+Tab" />
+			<separator />
+			<item id="110" caption="Exit" />
+		</title>
+		<title caption="Edit">
+			<item id="201" caption="Undo" shortcut="Ctrl+Z" />
+			<item id="202" caption="Redo" shortcut="Ctrl+Y" />
+			<separator />
+			<item id="203" caption="Cut" shortcut="Ctrl+X" />
+			<item id="204" caption="Copy" shortcut="Ctrl+C" />
+			<item id="205" caption="Paste" shortcut="Ctrl+V" />
+			<separator />
+			<item id="206" caption="Find & Replace..." shortcut="Ctrl+F" />
+			<item id="207" caption="Find Next" shortcut="Shift+Ctrl+F" />
+			<!--separator /-->
+			<!--item id="208" caption="Options..." /-->
+		</title>
+		<title caption="Program">
+			<!--item id="301" caption="Run" shortcut="Ctrl+R" /-->
+			<!--item id="302" caption="Debug" shortcut="Shift+Ctrl+R" /-->
+			<!--item id="303" caption="Build" shortcut="Ctrl+B" /-->
+			<item id="304" caption="Compile" shortcut="Shift+Ctrl+B" />
+			<!--item id="301" caption="Run in Moai" shortcut="F5" /-->
+			<!--item id="303" caption="Run in Lua" shortcut="F6" /-->
+			<separator />
+			<item id="305" caption="Lock Build File" />
+		</title>
+		<title caption="Help">
+			<item id="401" caption="About..." />
+		</title>
+	</menu>
+	<toolbar key="toolbar" parent="win">
+		<imagepath>toolbar/</imagepath>
+		<item id="101" image="new.png" tooltip="New"/>
+		<item id="102" image="open.png" tooltip="Open"/>
+		<item id="103" image="save.png" tooltip="Save"/>
+		<item id="106" image="close.png" tooltip="Close"/>
+		<separator />
+		<item id="201" image="undo.png" tooltip="Undo"/>
+		<item id="202" image="redo.png" tooltip="Redo"/>
+		<separator />
+		<item id="203" image="cut.png" tooltip="Cut"/>
+		<item id="204" image="copy.png" tooltip="Copy"/>
+		<item id="205" image="paste.png" tooltip="Paste"/>
+		<separator />
+		<item id="206" image="find.png" tooltip="Find"/>
+		<separator />
+		<!--item id="301" image="run.png" tooltip="Run"/-->
+		<!--item id="302" image="debug.png" tooltip="Debug"/-->
+		<!--item id="303" image="build.png" tooltip="Build"/-->
+		<item id="304" image="compile.png" tooltip="Compile"/>
+	</toolbar>
+	<tabbar key="tabbar" parent="win" />
+	<statusbar key="statusbar" parent="win">
+		<field width="150" />
+		<field width="1000" />
+	</statusbar>
+</interface>
